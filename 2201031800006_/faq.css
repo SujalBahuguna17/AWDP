@@ -1,0 +1,167 @@
+body {
+
+    background-color: #eef6f6;
+    font-family: Geneva, sans-serif;
+    line-height: 1.6;
+    color: #241c1c;
+    padding: 0 ;
+    margin: 0;
+}
+
+nav {
+    background-color: #003049;
+    top: 0;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    float: right;
+  }
+  
+  nav a {
+    display: block;
+    color: #fff;
+    padding: 20px 25px;
+    text-decoration: none;
+    align-items: center;
+  }
+  
+  nav a:hover {
+    background-color: #9d7373;
+    color: #000;
+  }
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav a {
+    color: #000;
+    text-decoration: underline;
+    padding: 5px 10px;
+}
+
+header nav a:hover {
+    background-color: #f0f0f0;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 50px;
+  } 
+   span{
+    font-size: xx-large;
+    position: absolute;
+    color: #f0f0f0;
+    font-family: 'Gill Sans';
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-weight: lighter;
+    
+}
+.question h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.question p {
+    margin-bottom: 0;
+    font-family: 'Segoe UI';
+}
+#faq {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: none;
+    border: none;
+}
+
+.question:hover {
+    background-color: #e1e1e1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+  footer {
+    background-color: #5e0312fe;
+    color: #fff;
+    padding: 0rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 1em;
+    margin: 0;
+    
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .footer-item {
+    margin: 0 1rem;
+    align-items: right;
+  }
+  
+  
+  .footer-item a {
+    color: #fff;
+    width: 100%;
+    
+    transition: color 0.3s ease;
+  }
+  
+  .footer-item a:hover {
+    color: #ccc;
+  }

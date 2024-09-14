@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About Us</title>
+    <style>
+        * {
+            box-sizing:border-box;
+        }
+        /* body{
+            font-family: cursive;
+            padding: 80px;
+            font-size: 15px;
+            margin:15px ;
+        } */
+        .all {
+            background-attachment: no-repeat;
+            /* background-image:url("PM.jpeg") ; */
+            padding: 50px 50px 50px; */
+            border-radius: 30px;
+            box-shadow: 0 30px 40px rgba(0,0,0.6);
+        }
+
+        .who{
+            font-family: cursive;
+            text-align: center;
+            color: black;
+            background-color: rgb(179, 78, 78);
+            border-radius: 20px;
+            padding: 2% 2% 2% 2%;
+            margin-bottom: 1px;
+            background-color: red;
+             /* background-image: (to right,
+             rgba(0,35,102,1) 25%,
+              rgba(255, 255, 255, 0.781) 50%,
+              rgba(3, 23, 152, 0.9) 75%); */
+              background-image: url("PM.jpeg");
+              background-size: cover;
+              color: white;
+        }
+        h2{
+            margin-top: 40px;
+        }
+
+        button{
+            background-attachment: fixed;
+            background-color: rgb(0, 0, 0);
+            color:rgb(255, 255, 255) ;
+            margin: 20px;
+            width: 220px;
+            height: 36px;
+            border: none;
+            float: center;
+            border-radius: 5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 500;
+            transition: all 1s ease;
+            cursor: pointer;
+            animation: down-bump 4s ease;
+
+        }
+
+        button:hover {
+            color: rgba(0,35,102,1);
+            background-color: whitesmoke;
+            border-radius: 20px;
+            animation: reverse 3s ease;
+        }
+        select{
+            color: white;
+            border-radius: 30px;
+            float: center;
+            border-color: black;
+            background-color: rgb(0, 0, 0);
+            width: 20%;
+            height: 20%;
+        }
+        .heading{
+            text-align: center;
+            color: black;
+            font-family: cursive;
+            padding: 40px;
+            
+        }
+        input[type="submit"]{
+            padding-inline-end: 1px 1px;
+            cursor: grabbing;
+            color: white;
+            border-radius: 30px;
+            float: center;
+            border-color: black;
+            background-color: rgb(0, 0, 0);
+            width: 20%;
+            height: 20%;
+        }
+        .who .arewe{
+            margin-bottom: 5%;
+            color: whitesmoke;
+        }
+        .who .arewe:hover{
+            color: black;
+        }
+        input[type="submit"]:hover {
+            color: rgba(0,35,102,1);
+            background-color: whitesmoke;
+            border-color: bisque;
+            border-radius: 60px;
+            animation: reverse 3s ease;
+
+        }
+       
+        select:hover {
+            color: rgba(0,35,102,1);
+            background-color: whitesmoke;
+            border-radius: 20px;
+            animation: reverse 3s ease;
+        } 
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-variant: inherit;
+            font-stretch: semi-expanded;
+            font-style: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">
+            <img class="logo-img" src="logo.png" alt="">
+        </a>
+
+        <i class="fa-solid fa-bars bars-icon"></i>
+
+        <div class="user-option">
+            <div class="option-box" id="login-link">
+                <a class="option-link" href="AboutUs.html">About Us</a>
+            </div>
+            <div class="option-box" id="login-link">
+              <a class="option-link" href="ContactUs.html">Contact Us</a>
+            </div>
+            <div class="option-box" id="login-link">
+              <a class="option-link" href="FAQ.html">FAQ?</a>
+            </div>
+            <div class="option-box" id="login-link">
+              <a class="option-link" href="login.html">Login</a>
+            </div>
+            <div class="option-box" id="login-link">
+              <a class="option-link" href="Project.html">Projects</a>
+            </div>
+            <div class="option-box" id="login-link">
+              <a class="option-link" href="login.html">Login</a>
+            </div>
+            <div class="option-box">
+                <a class="option-link" href="signup.html">Signup</a>
+            </div>
+        </div>
+    </div>
+    <div class="all">
+        <form action="">
+            <h1 class="heading">About us </h1>
+            <div class="who"> 
+                <div class="arewe">
+                <h2>Who are we?</h2>
+                </div>
+                <p>
+                    Virtual Labs project is an initiative of Ministry of Education (MoE), Government of India under the aegis of National Mission on Education through Information and Communication Technology (NMEICT). This project is a consortium activity of twelve participating institutes and IIT Delhi is coordinating institute. It is a paradigm shift in ICT-based education. For the first time, such an initiative has been taken-up in remote‐experimentation. Under Virtual Labs project, over 100 Virtual Labs consisting of approximately 700+ web-enabled experiments were designed for remote-operation and viewing.
+            </p>
+            <button class="contact-us"><a href="Project.html">Projects</a></button>
+            </div> 
+
+            
+            
+
+        </form>
+    </div>   
+</body>
+</html>
